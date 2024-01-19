@@ -7,7 +7,7 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "nodemon src/index.js",
-    "commands": "node src/deploy-commands.js",
+    "commands": "node src/commands/deploy-commands.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
