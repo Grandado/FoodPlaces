@@ -2,11 +2,12 @@
   "name": "food-places-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "start": "npm run dev",
-    "dev": "nodemon bin/server.js",
+    "dev": "nodemon src/index.js",
+    "commands": "node src/deploy-commands.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
